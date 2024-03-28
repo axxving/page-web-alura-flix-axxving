@@ -69,3 +69,14 @@ body {
 p {
   color: #fff;
 }
+
+.pelicula {
+  width: 300px;
+}
+
+#listaPeliculas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
