@@ -63,6 +63,7 @@ function obtenerInfoYAgregarPelicula() {
           };
           // Agregar la película al catálogo
           agregarPelicula(pelicula); // Llama a la función para agregar la película al catálogo
+          document.getElementById("pelicula").value = "";
         })
         .catch((error) => {
           console.error(error); // Muestra cualquier error en la consola
